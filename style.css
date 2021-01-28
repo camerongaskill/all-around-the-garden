@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+}
+
+header{
+    background-color: #c6bdae;
+    min-height: 15vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 12vh;
+    margin-right: 15px;
+}
+  
+header nav ul {
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    font-size: 20px;
+}
+  
+header nav ul li a {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    margin: 0 20px 0 0;
+}
+  
+header nav ul li:last-child a {
+    margin-right: 0;
+}
+
+header h1{
+    font-family: 'Dancing Script', cursive;
+    margin-left: 2%;
+    margin-top: 7vh;
+    color: #38543b;
+    font-size: 60px;
+    text-align: center;
+}
+
+.hero-image{
+    background-image: linear-gradient(rgb(205, 201, 189, 0.4), rgb(205, 201, 189, 0.4)), url("./pexels-element-digital-905419.jpg");
+    height: 85vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text{
+    text-align: center;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#home h2{
+    text-align: center;
+    color: #243826;
+    font-size: 50px;
+    margin-top: 15px;
+}
+
+#home{
+    margin-bottom: 10vh;
+}
+
+.plants{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 15vh;
+}
+
+.plant{
+    text-align: center;
+    margin-right: 5vw;
+}
+
+.plant img{
+    height: 30vh;
+    width: 20vw;
+}
+
+h3{
+    font-size: 35px;
+    margin-bottom: 10vh;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+}
+
+p{
+    font-size: 25px;
+    padding: 0 10px 0 10px;
+}
+
+#work{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.sample-work-1 img{
+    flex: 2;
+    width: 80vw;
+    margin-bottom: 10vh;
+}
+
+.sample-work-2 img{
+    flex: 1;
+    margin-right: 10vw;
+    width: 30vw;
+    margin-bottom: 10vh;
+}
+
+.sample-work-3 img{
+    width: 30vw;
+}
+.sample-work-4 img{
+    width: 40vw;
+    margin-right: 10vw;
+    margin-bottom: 10vh;
+}
+.sample-work-5 img{
+    width: 20vw;
+    margin-top: 10vh;
+}
+
+.sample-work-6 img{
+    flex: 2;
+    width: 90vw;
+    margin-bottom: 10vh;
+}
